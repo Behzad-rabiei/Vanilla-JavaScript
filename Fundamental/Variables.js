@@ -1,0 +1,8 @@
+// VAR -> GLOBALY SCOPED
+var score = 3;
+
+// LET -> LOCAL SCOPED
+let mark = 20;
+
+// CONST -> LOCAL SCOPED, CONSTANT
+const age;  //ERROR BECAUSE YOU CAN NOT ASSIGAN IT LATER
