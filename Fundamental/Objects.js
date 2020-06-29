@@ -1,21 +1,19 @@
-const person = {
-  firstName: 'Joe',
-  lastName: 'Doe',
-  age: 21,
-  address: {
-    street: "'0 main st',
-			city: 'Boston',
-    state: 'MA',
+const todos = [
+  {
+    id: 1,
+    content: 'Check Emails',
+    iscomplete: true,
   },
-  skills =['Frontend', 'UX & UI']
-};
 
-console.log(perosn);
-console.log(person.skills[0])
-console.log(firstName, lastName);
+  {
+    id: 2,
+    content: 'Do Homeworks',
+    iscomplete: false,
+  },
 
-person.email = "Joe@yahoo.com"; //	ADD PROPERTY
-console.log(perosn);
-
-const { firstName, lastName, address: { city } } = person;
-console.log(city);
+  {
+    id: 3,
+    content: 'Metting',
+    iscomplete: true,
+  }
+];
