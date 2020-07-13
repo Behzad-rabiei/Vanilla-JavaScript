@@ -23,7 +23,7 @@ function createPost(post) {
 
 createPost({ title: 'post three', body: 'post three body' });
 
-//  SO WE ADDED POST THREE BUT IT IS NOT SHOW IN THML PAGE
+//  SO WE ADDED POST THREE BUT IT IS NOT SHOW IN THE PAGE
 //  callback
 
 const posts = [
