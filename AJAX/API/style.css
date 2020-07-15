@@ -1,0 +1,10 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.user{
+  background-color: silver;
+  margin: 0.5em;
+}
